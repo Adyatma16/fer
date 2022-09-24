@@ -1,12 +1,11 @@
 body {
   margin: 0;
-  width: 100%;
 }
 /* Awal Section 1 */
 .section-first {
   width: 100vw;
   height: 428px;
-  background-color: #fff;
+  /* background-color: #666; */
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
@@ -14,7 +13,7 @@ body {
 .section-first-wrapper {
   width: 1027px;
   height: 428px;
-  background-color: #fff;
+  /* background-color: #fff; */
   display: grid;
   grid-template-columns: 6.5fr 5.5fr;
   font-family: Arial;
@@ -89,7 +88,7 @@ body {
   margin: 0;
 }
 .section-second-grid {
-  width: 1168px;
+  width: 100%;
   height: 196px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
