@@ -1,3 +1,3 @@
 # fer
 frontendengineer
-Hello Odin!
+Binar Rental Car Gold Landing Page
