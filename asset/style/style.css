@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+/* Awal Section 1 */
+.section-first {
+  width: 100vw;
+  height: 428px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.section-first-wrapper {
+  width: 1027px;
+  height: 428px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 6.5fr 5.5fr;
+  font-family: Arial;
+}
+.section-first-img {
+  /* border: 1px solid black; */
+  height: 428px;
+}
+.section-first-title {
+  /* border: 1px solid red; */
+  height: 428px;
+}
+.section-first-title h2 {
+  font-size: 24px;
+  margin: 36px 0px 24px;
+  line-height: 36px;
+}
+.section-first-title p {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0px 0px 18px;
+  line-height: 20px;
+}
+.section-first-title ul {
+  padding: 0;
+}
+.section-first-title li {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  justify-items: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.section-first-title span {
+  width: 24px;
+  height: 24px;
+  background-color: #cfd4ed;
+  border-radius: 200px;
+  padding-top: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+/* Akhir Section 1 */
+
+/* Awal Section 2 */
+.section-second {
+  width: 100vw;
+  height: 308px;
+  /* background-color: #666; */
+  display: flex;
+  justify-content: center;
+}
+.section-second-wrapper {
+  width: 1168px;
+  height: 308px;
+  /* background-color: aquamarine; */
+  font-family: Arial;
+}
+.section-second-wrapper h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0px 0px 16px;
+}
+.section-second-wrapper p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 0;
+}
+.section-second-grid {
+  width: 1168px;
+  height: 196px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* background-color: violet; */
+  gap: 24px;
+  margin-top: 40px;
+}
+.section-second-card {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 24px;
+  box-sizing: border-box;
+}
+.section-second-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+/* AKhir Section 2 */
